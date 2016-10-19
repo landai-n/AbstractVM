@@ -1,0 +1,18 @@
+; ------------
+; exemple.avm
+; ------------
+
+push double(20.5)
+push int8(4)
+add		; 4 + 20.5
+dump
+
+push int8(2)
+mul		; 2 * 24.5
+dump
+
+push int32(2)
+sub		; 2 - 49
+dump
+
+exit
